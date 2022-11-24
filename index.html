@@ -1,14 +1,159 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>Recipes</title>
-        <link href="./assets/css/normalize.css" rel="stylesheet" />
-        <link href="./assets/css/reset.css" rel="stylesheet" />
-        <link href="./assets/css/header.css" rel="stylesheet" />
-    </head>
-    <body></body>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Recipes</title>
+    <link href="./assets/css/normalize.css" rel="stylesheet" />
+    <link href="./assets/css/reset.css" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link rel="icon" href="./assets/img/logoRecipe.jpg" />
+  </head>
+  <body>
+    <header>
+      <img src="./assets/img/logoRecipe.jpg" alt="" />
+      <nav>
+        <ul>
+          <li>
+            <a href="#" id="active">HOME</a>
+          </li>
+          <li>
+            <a href="#">RECIPES</a>
+          </li>
+          <li>
+            <a href="#">ABOUT US</a>
+          </li>
+          <li>
+            <a href="#">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="banner">
+      <h2>Make better use of food</h2>
+    </section>
+    <section class="about">
+      <h2>The best recipes</h2>
+      <p>Make the best recipes for you and your family</p>
+    </section>
+
+    <section class="container__recipes">
+      <div class="recipe">
+        <img
+          alt="recipe"
+          class="recipe__image"
+          src="./assets/img/recipes/bowl-de-aguacate.jpg"
+        />
+        <div class="content__recipe">
+          <h4 class="recipe__title">Avocado bowl</h4>
+          <p class="recipe__description">
+            Refreshing recipe and full of vitamins for your breakfast.
+          </p>
+          <button class="recipe__button">See recipe</button>
+        </div>
+      </div>
+      <div class="recipe">
+        <img
+          alt="recipe"
+          class="recipe__image"
+          src="./assets/img/recipes/ensalada-de-kiwi.jpg"
+        />
+        <div class="content__recipe">
+          <h4 class="recipe__title">Kiwi Salad</h4>
+          <p class="recipe__description">
+            Refreshing recipe and full of vitamins for your breakfast.
+          </p>
+          <button class="recipe__button">See recipe</button>
+        </div>
+      </div>
+      <div class="recipe">
+        <img
+          alt="recipe"
+          class="recipe__image"
+          src="./assets/img/recipes/mix-de-vegetales.jpg"
+        />
+        <div class="content__recipe">
+          <h4 class="recipe__title">Mix of vegetables</h4>
+          <p class="recipe__description">
+            Refreshing recipe and full of vitamins for your breakfast.
+          </p>
+          <button class="recipe__button">See recipe</button>
+        </div>
+      </div>
+      <div class="recipe">
+        <img
+          alt="recipe"
+          class="recipe__image"
+          src="./assets/img/recipes/pimentones-a-la-juliana.jpg"
+        />
+        <div class="content__recipe">
+          <h4 class="recipe__title">Julienne style peppers</h4>
+          <p class="recipe__description">
+            Refreshing recipe and full of vitamins for your breakfast.
+          </p>
+          <button class="recipe__button">See recipe</button>
+        </div>
+      </div>
+      <div class="recipe">
+        <img
+          alt="recipe"
+          class="recipe__image"
+          src="./assets/img/recipes/plato-oriental.jpg"
+        />
+        <div class="content__recipe">
+          <h4 class="recipe__title">Oriental dish</h4>
+          <p class="recipe__description">
+            Refreshing recipe and full of vitamins for your breakfast.
+          </p>
+          <button class="recipe__button">See recipe</button>
+        </div>
+      </div>
+      <div class="recipe">
+        <img
+          alt="recipe"
+          class="recipe__image"
+          src="./assets/img/recipes/remolachas-horneadas.jpg"
+        />
+        <div class="content__recipe">
+          <h4 class="recipe__title">Baked beets</h4>
+          <p class="recipe__description">
+            Refreshing recipe and full of vitamins for your breakfast.
+          </p>
+          <button class="recipe__button">See recipe</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="container__about">
+      <h3 class="about__title">About us</h3>
+      <p class="about__description">Meet the community behind the initiative</p>
+      <div class="people">
+        <div class="person">
+          <div class="person__image person__image__1"></div>
+          <span class="person__name">Jane</span>
+          <span class="person__role">Content</span>
+        </div>
+        <div class="person">
+          <div class="person__image person__image__2"></div>
+          <span class="person__name">Rose</span>
+          <span class="person__role">Chef</span>
+        </div>
+        <div class="person">
+          <div class="person__image person__image__3"></div>
+          <span class="person__name">Andrea</span>
+          <span class="person__role">Producer</span>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+        Contact: greenlife@health.com
+    </footer>
+  </body>
 </html>

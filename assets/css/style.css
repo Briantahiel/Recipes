@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400&display=swap');
+/*//////////NAVBAR//////////*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header {
+  width: 100%; 
+  z-index: 100; 
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  align-items: center;
+}
+header img {
+  width: 60px;
+  height: 60px;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  color: #808080;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+header nav ul li a#active {
+  color: black;
+  font-weight: bold;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/*//////////BANNER//////////*/
+.banner h2 {
+  color: white;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  font-size: 4rem;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.7);
+  transform: translate(-50%, -50%);
+  font-family: Pacifico, cursive;
+  position: absolute;
+  text-align: center;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*//////////ABOUT BANNNER//////////*/
+.about {
+  padding: 2.5rem;  
+  text-align: center;
+}
+.about h2 {
+  color: rgb(65, 72, 78);
+  font-size: 2.2rem;
+  font-family: Pacifico, cursive;
+}
+.about p {
+  color: black;  
+  font-size: 1.2rem;
+  font-weight: 400; 
+}
+
+/*//////////RECIPES//////////*/
+
+.container__recipes {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.recipe {
+  width: 320px;
+  background-color: #fdfdfd;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 2px 1px rgba(53, 53, 53, 0.2);
+}
+.content__recipe {
+  padding: 1rem;
+}
+.recipe__button {
+  background-color: #dbdbdb;
+  padding: 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+/*//////////ABOUT//////////*/
+
+.about__title {
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-family: Pacifico, cursive;
+}
+.about__description {
+  font-size: 1.4rem;
+}
+.container__about {
+  text-align: center;
+  padding: 4rem;
+}
+
+/*//////////PEOPLE//////////*/
+
+.person{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.2rem 2rem 1.2rem;
+}
+.person__name{
+    margin: 1rem 0;
+    font-family: Pacifico, curisive;
+    font-size: 1.8rem;
+}
+.person__role{
+    font-size: 1.2rem;
+}
+.people{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+    flex-wrap: wrap;
+}
+.person__image{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.person__image__1{
+    background-image: url(../img/people/name.jpg);
+}
+.person__image__2{
+    background-image: url(../img/people/name1.jpg);
+}
+.person__image__3{
+    background-image: url(../img/people/name2.jpg);
+}
+
+/*//////////FOOTER//////////*/
+footer{
+    background-color: #c5c5c5;
+    padding: 1.5rem;
+    text-align: right;
+}
+
+/*////////////////////*/
+@media screen and (max-width: 620px) {
+    .banner h2{
+        font-size: 3rem;
+    } 
+}
+
+
+@media screen and (max-width: 420px) {
+    header img{
+        display: none;
+    }
+    header nav{
+       display: flex;
+       justify-content: center;
+       margin: auto;
+    }
+}

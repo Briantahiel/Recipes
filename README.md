@@ -1,4 +1,3 @@
-# arquitectura-css
-curso de arquitectura de Alura. 
+# design-css
 
-Prototipo: https://www.figma.com/file/ZIZuMVCGh6cE3UQvTbFsuj/alura-bootstrap?node-id=0%3A1
+Prototype: https://www.figma.com/file/ZIZuMVCGh6cE3UQvTbFsuj/alura-bootstrap?node-id=0%3A1
